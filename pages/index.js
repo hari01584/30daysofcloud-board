@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>30 Days of Cloud - Progress Board</title>
+        <title>DSC 30 Days of Cloud - Progress Board</title>
       </Head>
       <div style={{ padding: 50 }}>
         <footer className="flex apart">
@@ -16,11 +16,11 @@ export default function Home() {
           </Typography>
           <Typography variant="body2" color="textSecondary">
             <a
-              href="https://www.github.com/crossphoton"
+              href="https://github.com/developer-student-club-thapar"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Developed by Aditya Agrawal
+              Google Developer Student Clubs - TIET
             </a>
           </Typography>
         </footer>

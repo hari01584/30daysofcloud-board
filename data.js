@@ -1,3 +1,7 @@
+// Declaration of some consts
+const INSTITUTE_NAME = "Thapar Institute of Engineering & Technology";
+
+
 const csv = require("csv-parser");
 const fs = require("fs");
 
@@ -10,7 +14,7 @@ fs.createReadStream("data/data.csv")
   .on("data", (data) => results.push(data))
   .on("end", () => {
     let id = 0;
-    let institute = results[0]["Institution"];
+    let institute = INSTITUTE_NAME;
     results.forEach((result) => {
       delete result["Enrolment Date & Time"];
       delete result["Qwiklabs Profile URL"];
